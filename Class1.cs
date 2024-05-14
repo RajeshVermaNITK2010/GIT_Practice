@@ -15,6 +15,8 @@ namespace ConsoleApp1
     public class Manager : Employee
     {
         public override decimal Bonus { get { return 10000m; } }
+		
+		public string ToString() => $"Bonus: {Bonus}"
     }
 
     
